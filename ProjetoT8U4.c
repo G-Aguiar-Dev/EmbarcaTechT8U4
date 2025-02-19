@@ -1,3 +1,4 @@
+// Inclusão de Bibliotecas
 #include <stdio.h>
 #include <stdlib.h>
 #include "pico/stdlib.h"
@@ -7,13 +8,13 @@
 #include "lib/ssd1306.h"
 #include "lib/font.h"
 
-#define I2C_PORT i2c1
-#define I2C_SDA 14
-#define I2C_SCL 15
+#define I2C_PORT i2c1 // Porta I2C
+#define I2C_SDA 14 // GPIO para SDA do LCD
+#define I2C_SCL 15 // GPIO para SCL do LCD
 #define endereco 0x3C
-#define LED_PIN_GREEN 11
-#define LED_PIN_BLUE 12
-#define LED_PIN_RED 13
+#define LED_PIN_GREEN 11 // LED verde
+#define LED_PIN_BLUE 12 // LED azul
+#define LED_PIN_RED 13 // LED vermelho
 #define JOYSTICK_Y_PIN 26  // GPIO para eixo Y
 #define JOYSTICK_X_PIN 27  // GPIO para eixo X
 #define JOYSTICK_BUTTON 22 // GPIO para botão do Joystick
